@@ -1,0 +1,42 @@
+body {
+  margin 0;
+  font-family: Arial, sans-serif;
+  background-color: orange;
+}
+
+.profile {
+  width: 400px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+a {
+  display: block;
+  paddding: 15px;
+  margin: 15px 0;
+
+  background-color: white;
+
+  text-decoration: none;
+  color: black;
+
+  border-radius: 10px;
+
+  transition: 0.3s;
+}
+
+a:hover {
+    transform: scale(1.05);
+}
+
+.profile-picture {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
